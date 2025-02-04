@@ -1,5 +1,5 @@
 
-### **Beginner's Guide to Learning C Programming**
+### **Beginner's Guide to Learning C **
 
 #### **1. Introduction to C Programming**
    - What is C Programming?
