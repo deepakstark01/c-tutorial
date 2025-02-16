@@ -1,19 +1,26 @@
 #include<stdio.h>
-void main()
-{
 
-    int num = 5;
-    int x=1;
-    for(int i=2; i<num-1; i++)
+int isPrime(int number)
+{
+    for(int i=2; i<number-1; i++)
     {
 
-       if(num%i==0) 
+       if(number%i==0)  // 
        {
-        x=0;
-        break;
+        return 0;
        }
 
     }
+    return 1;
+
+
+}
+void main()
+{
+
+    int num = 78;
+    int x=  isPrime(num);
+    
     if(x)  // 
     {
         printf("Number is prime %d", num);

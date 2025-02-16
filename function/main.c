@@ -1,29 +1,24 @@
 #include<stdio.h>
-int isOdd(int num) // 7
+int sum(int numA, int numB, int numC)  // define 
 {
-   if(num%2 ==0) // 1==0  
-   {
-    return 1;
-   }
-   else
-   {
-    return 0;
-   }
-   
+    return numA+numB+numC;
 };
+
+float percentage(int sub1, int sub2, int sub3)
+{
+    int total = sum(sub1, sub2, sub3);
+    float per =  (total/300.0)*100;
+    return per;
+
+};
+
 void main()
 {
-    int num, x; // num 7
-    printf("Enter the value \n");
-    scanf("%d", &num);
-    x = isOdd(num); // isOdd(7) x= 0
-    if(x)
-    {
-        printf("number is even\n");
-    }
-    else
-    {
-        printf("number is odd\n");
-    }
+    int english=70, math = 55, phyisc = 70;
+    float p = percentage(english, math, phyisc);
+    printf("%f\n", p);
+    english=75, math = 54, phyisc = 78;
+    p = percentage(english, math, phyisc);
+    printf("%f\n", p);
 }
 
