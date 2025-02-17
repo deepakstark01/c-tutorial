@@ -48,39 +48,40 @@ void main()
 
 
 // Home work 
-    int a = 5, b = 7, c;  
-    c = a++ + --b;  
-    a = ++c - b--;  
-    printf("%d %d %d\n", a, b, c);
+    int a = 5, b = 7, c; // 
+    c = a++ + --b;   //c= 11 
+    a = ++c - b--;   //  12 -  6 
 
-    int x = 10, y = 5, z;  
-    z = --x + y++;  
-    x = z++ - --y;  
-    printf("%d %d %d\n", x, y, z);
+    printf("%d %d %d\n", a, b, c); // a= 6 , b = 7 , c = 12 
+
+    // int x = 10, y = 5, z;  
+    // z = --x + y++;  
+    // x = z++ - --y;  
+    // printf("%d %d %d\n", x, y, z);
 
 
-    int p = 4, q = 9, r;  
-    r = p-- + q++;  
-    p = ++r - --q;  
-    printf("%d %d %d\n", p, q, r);
+    // int p = 4, q = 9, r;  
+    // r = p-- + q++;  
+    // p = ++r - --q;  
+    // printf("%d %d %d\n", p, q, r);
 
-    int a = 3, b = 6, c = 9;  
-    a = b++ + --c;  
-    b = --a - c++;  
-    c = a++ + --b;  
-    printf("%d %d %d\n", a, b, c);
+    // int a = 3, b = 6, c = 9;  
+    // a = b++ + --c;  
+    // b = --a - c++;  
+    // c = a++ + --b;  
+    // printf("%d %d %d\n", a, b, c);
 
-    int x = 2, y = 4, z = 6;  
-    y = x++ + --z;  
-    z = y-- - ++x;  
-    x = --y + z++;  
-    printf("%d %d %d\n", x, y, z);
+    // int x = 2, y = 4, z = 6;  
+    // y = x++ + --z;  
+    // z = y-- - ++x;  
+    // x = --y + z++;  
+    // printf("%d %d %d\n", x, y, z);
 
-    int p = 8, q = 3, r;  
-    r = ++p - q--;  
-    q = --r + p++;  
-    p = r++ - --q;  
-    printf("%d %d %d\n", p, q, r);
+    // int p = 8, q = 3, r;  
+    // r = ++p - q--;  
+    // q = --r + p++;  
+    // p = r++ - --q;  
+    // printf("%d %d %d\n", p, q, r);
 
 
 
